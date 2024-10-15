@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1A328F2CA55C4A00816D25 /* article7.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A328E2CA55C4A00816D25 /* article7.swift */; };
+		CF1A32912CA55C5700816D25 /* article8.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A32902CA55C5700816D25 /* article8.swift */; };
+		CF1A32932CA55C6300816D25 /* article9.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A32922CA55C6300816D25 /* article9.swift */; };
+		CF1A32952CA55C6E00816D25 /* article10.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A32942CA55C6E00816D25 /* article10.swift */; };
+		CF1A32972CA55C7900816D25 /* article11.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A32962CA55C7900816D25 /* article11.swift */; };
+		CF1A32992CA55C8200816D25 /* article12.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A32982CA55C8200816D25 /* article12.swift */; };
+		CFEE6A242C99663900A7BC3E /* Projet_VigiSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A232C99663900A7BC3E /* Projet_VigiSpam.swift */; };
+		CFEE6A282C99663A00A7BC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEE6A272C99663A00A7BC3E /* Assets.xcassets */; };
+		CFEE6A2B2C99663A00A7BC3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEE6A2A2C99663A00A7BC3E /* Preview Assets.xcassets */; };
+		CFEE6A352C99663A00A7BC3E /* Projet_VigiSpamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A342C99663A00A7BC3E /* Projet_VigiSpamTests.swift */; };
+		CFEE6A3F2C99663A00A7BC3E /* Projet_VigiSpamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A3E2C99663A00A7BC3E /* Projet_VigiSpamUITests.swift */; };
+		CFEE6A412C99663A00A7BC3E /* Projet_VigiSpamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A402C99663A00A7BC3E /* Projet_VigiSpamUITestsLaunchTests.swift */; };
+		CFEE6A4F2C99BD5E00A7BC3E /* model_rkd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A4E2C99BD5E00A7BC3E /* model_rkd.swift */; };
+		CFEE6A512C9AC41800A7BC3E /* boutton_theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A502C9AC41800A7BC3E /* boutton_theme.swift */; };
+		CFEE6A532C9AC46100A7BC3E /* boutton_back.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A522C9AC46100A7BC3E /* boutton_back.swift */; };
+		CFEE6A552C9AC4A600A7BC3E /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A542C9AC4A600A7BC3E /* theme.swift */; };
+		CFEE6A572C9AD0CB00A7BC3E /* dialogue_cb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A562C9AD0CB00A7BC3E /* dialogue_cb.swift */; };
+		CFEE6A592C9AD18200A7BC3E /* chat_bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A582C9AD18200A7BC3E /* chat_bot.swift */; };
+		CFEE6A5B2C9AFB3A00A7BC3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A5A2C9AFB3A00A7BC3E /* ContentView.swift */; };
+		CFEE6A5D2C9C0F0B00A7BC3E /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A5C2C9C0F0B00A7BC3E /* profil.swift */; };
+		CFEE6A5F2C9C0FAF00A7BC3E /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6A5E2C9C0FAF00A7BC3E /* Doc.swift */; };
+		CFEE6AA92CA164DE00A7BC3E /* parametre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AA82CA164DE00A7BC3E /* parametre.swift */; };
+		CFEE6AB02CA18C0200A7BC3E /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AAC2CA18C0200A7BC3E /* Database.swift */; };
+		CFEE6AB22CA18C0200A7BC3E /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AAE2CA18C0200A7BC3E /* Question3.swift */; };
+		CFEE6AB32CA18C0200A7BC3E /* Modeles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AAF2CA18C0200A7BC3E /* Modeles.swift */; };
+		CFEE6AB52CA18D6C00A7BC3E /* ButtonQuestion3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AB42CA18D6C00A7BC3E /* ButtonQuestion3.swift */; };
+		CFEE6AB92CA1AE2A00A7BC3E /* NiveauFishing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AB72CA1AE2A00A7BC3E /* NiveauFishing.swift */; };
+		CFEE6ABA2CA1AE2A00A7BC3E /* niveauCopie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AB82CA1AE2A00A7BC3E /* niveauCopie.swift */; };
+		CFEE6ABC2CA2C4CF00A7BC3E /* NiveauFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ABB2CA2C4CF00A7BC3E /* NiveauFinance.swift */; };
+		CFEE6ABE2CA2D31100A7BC3E /* NiveauIdentité.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ABD2CA2D31100A7BC3E /* NiveauIdentité.swift */; };
+		CFEE6AC02CA2D35500A7BC3E /* NiveauSecurite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ABF2CA2D35500A7BC3E /* NiveauSecurite.swift */; };
+		CFEE6AC32CA4145400A7BC3E /* article1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AC22CA4145400A7BC3E /* article1.swift */; };
+		CFEE6AC52CA4149700A7BC3E /* article2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AC42CA4149700A7BC3E /* article2.swift */; };
+		CFEE6AC72CA414F300A7BC3E /* article3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AC62CA414F300A7BC3E /* article3.swift */; };
+		CFEE6AC92CA4151800A7BC3E /* article4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AC82CA4151800A7BC3E /* article4.swift */; };
+		CFEE6ACB2CA4154600A7BC3E /* article5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ACA2CA4154600A7BC3E /* article5.swift */; };
+		CFEE6ACD2CA4156900A7BC3E /* article6.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ACC2CA4156900A7BC3E /* article6.swift */; };
+		CFEE6ACF2CA42B5800A7BC3E /* rechercherExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6ACE2CA42B5800A7BC3E /* rechercherExtract.swift */; };
+		CFEE6AD12CA42B9B00A7BC3E /* ExempleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AD02CA42B9B00A7BC3E /* ExempleSearch.swift */; };
+		CFEE6AD32CA42BD200A7BC3E /* recherche.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE6AD22CA42BD200A7BC3E /* recherche.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEE6A312C99663A00A7BC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEE6A182C99663900A7BC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEE6A1F2C99663900A7BC3E;
+			remoteInfo = Projet_VigiSpam;
+		};
+		CFEE6A3B2C99663A00A7BC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEE6A182C99663900A7BC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEE6A1F2C99663900A7BC3E;
+			remoteInfo = Projet_VigiSpam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1A328E2CA55C4A00816D25 /* article7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article7.swift; sourceTree = "<group>"; };
+		CF1A32902CA55C5700816D25 /* article8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article8.swift; sourceTree = "<group>"; };
+		CF1A32922CA55C6300816D25 /* article9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article9.swift; sourceTree = "<group>"; };
+		CF1A32942CA55C6E00816D25 /* article10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article10.swift; sourceTree = "<group>"; };
+		CF1A32962CA55C7900816D25 /* article11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article11.swift; sourceTree = "<group>"; };
+		CF1A32982CA55C8200816D25 /* article12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article12.swift; sourceTree = "<group>"; };
+		CFEE6A202C99663900A7BC3E /* Projet_VigiSpam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_VigiSpam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE6A232C99663900A7BC3E /* Projet_VigiSpam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_VigiSpam.swift; sourceTree = "<group>"; };
+		CFEE6A272C99663A00A7BC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEE6A2A2C99663A00A7BC3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFEE6A302C99663A00A7BC3E /* Projet_VigiSpamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projet_VigiSpamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE6A342C99663A00A7BC3E /* Projet_VigiSpamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_VigiSpamTests.swift; sourceTree = "<group>"; };
+		CFEE6A3A2C99663A00A7BC3E /* Projet_VigiSpamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projet_VigiSpamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE6A3E2C99663A00A7BC3E /* Projet_VigiSpamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_VigiSpamUITests.swift; sourceTree = "<group>"; };
+		CFEE6A402C99663A00A7BC3E /* Projet_VigiSpamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet_VigiSpamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFEE6A4E2C99BD5E00A7BC3E /* model_rkd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model_rkd.swift; sourceTree = "<group>"; };
+		CFEE6A502C9AC41800A7BC3E /* boutton_theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boutton_theme.swift; sourceTree = "<group>"; };
+		CFEE6A522C9AC46100A7BC3E /* boutton_back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boutton_back.swift; sourceTree = "<group>"; };
+		CFEE6A542C9AC4A600A7BC3E /* theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		CFEE6A562C9AD0CB00A7BC3E /* dialogue_cb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialogue_cb.swift; sourceTree = "<group>"; };
+		CFEE6A582C9AD18200A7BC3E /* chat_bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_bot.swift; sourceTree = "<group>"; };
+		CFEE6A5A2C9AFB3A00A7BC3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFEE6A5C2C9C0F0B00A7BC3E /* profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profil.swift; sourceTree = "<group>"; };
+		CFEE6A5E2C9C0FAF00A7BC3E /* Doc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
+		CFEE6AA82CA164DE00A7BC3E /* parametre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parametre.swift; sourceTree = "<group>"; };
+		CFEE6AAC2CA18C0200A7BC3E /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = Projet_VigiSpam/Data/Database.swift; sourceTree = SOURCE_ROOT; };
+		CFEE6AAE2CA18C0200A7BC3E /* Question3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question3.swift; path = Projet_VigiSpam/Question3.swift; sourceTree = SOURCE_ROOT; };
+		CFEE6AAF2CA18C0200A7BC3E /* Modeles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Modeles.swift; path = Projet_VigiSpam/Data/Modeles.swift; sourceTree = SOURCE_ROOT; };
+		CFEE6AB42CA18D6C00A7BC3E /* ButtonQuestion3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonQuestion3.swift; path = Projet_VigiSpam/Extraction/ButtonQuestion3.swift; sourceTree = SOURCE_ROOT; };
+		CFEE6AB72CA1AE2A00A7BC3E /* NiveauFishing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiveauFishing.swift; sourceTree = "<group>"; };
+		CFEE6AB82CA1AE2A00A7BC3E /* niveauCopie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = niveauCopie.swift; sourceTree = "<group>"; };
+		CFEE6ABB2CA2C4CF00A7BC3E /* NiveauFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiveauFinance.swift; sourceTree = "<group>"; };
+		CFEE6ABD2CA2D31100A7BC3E /* NiveauIdentité.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NiveauIdentité.swift"; sourceTree = "<group>"; };
+		CFEE6ABF2CA2D35500A7BC3E /* NiveauSecurite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiveauSecurite.swift; sourceTree = "<group>"; };
+		CFEE6AC22CA4145400A7BC3E /* article1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article1.swift; sourceTree = "<group>"; };
+		CFEE6AC42CA4149700A7BC3E /* article2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article2.swift; sourceTree = "<group>"; };
+		CFEE6AC62CA414F300A7BC3E /* article3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article3.swift; sourceTree = "<group>"; };
+		CFEE6AC82CA4151800A7BC3E /* article4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article4.swift; sourceTree = "<group>"; };
+		CFEE6ACA2CA4154600A7BC3E /* article5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article5.swift; sourceTree = "<group>"; };
+		CFEE6ACC2CA4156900A7BC3E /* article6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article6.swift; sourceTree = "<group>"; };
+		CFEE6ACE2CA42B5800A7BC3E /* rechercherExtract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rechercherExtract.swift; sourceTree = "<group>"; };
+		CFEE6AD02CA42B9B00A7BC3E /* ExempleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleSearch.swift; sourceTree = "<group>"; };
+		CFEE6AD22CA42BD200A7BC3E /* recherche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = recherche.swift; path = Extraction/recherche.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEE6A1D2C99663900A7BC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A2D2C99663A00A7BC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A372C99663A00A7BC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEE6A172C99663900A7BC3E = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A222C99663900A7BC3E /* Projet_VigiSpam */,
+				CFEE6A332C99663A00A7BC3E /* Projet_VigiSpamTests */,
+				CFEE6A3D2C99663A00A7BC3E /* Projet_VigiSpamUITests */,
+				CFEE6A212C99663900A7BC3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEE6A212C99663900A7BC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A202C99663900A7BC3E /* Projet_VigiSpam.app */,
+				CFEE6A302C99663A00A7BC3E /* Projet_VigiSpamTests.xctest */,
+				CFEE6A3A2C99663A00A7BC3E /* Projet_VigiSpamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEE6A222C99663900A7BC3E /* Projet_VigiSpam */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A232C99663900A7BC3E /* Projet_VigiSpam.swift */,
+				CFEE6A5A2C9AFB3A00A7BC3E /* ContentView.swift */,
+				CFEE6AB62CA18EE100A7BC3E /* Data */,
+				CFEE6A602C9C100400A7BC3E /* Projet_chld */,
+				CFEE6A4D2C99A92400A7BC3E /* Extraction */,
+				CFEE6A5E2C9C0FAF00A7BC3E /* Doc.swift */,
+				CFEE6AD22CA42BD200A7BC3E /* recherche.swift */,
+				CFEE6A542C9AC4A600A7BC3E /* theme.swift */,
+				CFEE6A582C9AD18200A7BC3E /* chat_bot.swift */,
+				CFEE6A5C2C9C0F0B00A7BC3E /* profil.swift */,
+				CFEE6A272C99663A00A7BC3E /* Assets.xcassets */,
+				CFEE6A292C99663A00A7BC3E /* Preview Content */,
+			);
+			path = Projet_VigiSpam;
+			sourceTree = "<group>";
+		};
+		CFEE6A292C99663A00A7BC3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A2A2C99663A00A7BC3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFEE6A332C99663A00A7BC3E /* Projet_VigiSpamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A342C99663A00A7BC3E /* Projet_VigiSpamTests.swift */,
+			);
+			path = Projet_VigiSpamTests;
+			sourceTree = "<group>";
+		};
+		CFEE6A3D2C99663A00A7BC3E /* Projet_VigiSpamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6A3E2C99663A00A7BC3E /* Projet_VigiSpamUITests.swift */,
+				CFEE6A402C99663A00A7BC3E /* Projet_VigiSpamUITestsLaunchTests.swift */,
+			);
+			path = Projet_VigiSpamUITests;
+			sourceTree = "<group>";
+		};
+		CFEE6A4D2C99A92400A7BC3E /* Extraction */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6AB42CA18D6C00A7BC3E /* ButtonQuestion3.swift */,
+				CFEE6A502C9AC41800A7BC3E /* boutton_theme.swift */,
+				CFEE6AB82CA1AE2A00A7BC3E /* niveauCopie.swift */,
+				CFEE6A562C9AD0CB00A7BC3E /* dialogue_cb.swift */,
+				CFEE6A522C9AC46100A7BC3E /* boutton_back.swift */,
+				CFEE6ACE2CA42B5800A7BC3E /* rechercherExtract.swift */,
+				CFEE6AD02CA42B9B00A7BC3E /* ExempleSearch.swift */,
+			);
+			path = Extraction;
+			sourceTree = "<group>";
+		};
+		CFEE6A602C9C100400A7BC3E /* Projet_chld */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6AC12CA4143E00A7BC3E /* article */,
+				CFEE6AAE2CA18C0200A7BC3E /* Question3.swift */,
+				CFEE6AB72CA1AE2A00A7BC3E /* NiveauFishing.swift */,
+				CFEE6ABB2CA2C4CF00A7BC3E /* NiveauFinance.swift */,
+				CFEE6ABD2CA2D31100A7BC3E /* NiveauIdentité.swift */,
+				CFEE6ABF2CA2D35500A7BC3E /* NiveauSecurite.swift */,
+				CFEE6AA82CA164DE00A7BC3E /* parametre.swift */,
+				CFEE6A4E2C99BD5E00A7BC3E /* model_rkd.swift */,
+			);
+			path = Projet_chld;
+			sourceTree = "<group>";
+		};
+		CFEE6AB62CA18EE100A7BC3E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6AAC2CA18C0200A7BC3E /* Database.swift */,
+				CFEE6AAF2CA18C0200A7BC3E /* Modeles.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CFEE6AC12CA4143E00A7BC3E /* article */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE6AC22CA4145400A7BC3E /* article1.swift */,
+				CFEE6AC42CA4149700A7BC3E /* article2.swift */,
+				CFEE6AC62CA414F300A7BC3E /* article3.swift */,
+				CFEE6AC82CA4151800A7BC3E /* article4.swift */,
+				CFEE6ACA2CA4154600A7BC3E /* article5.swift */,
+				CFEE6ACC2CA4156900A7BC3E /* article6.swift */,
+				CF1A328E2CA55C4A00816D25 /* article7.swift */,
+				CF1A32902CA55C5700816D25 /* article8.swift */,
+				CF1A32922CA55C6300816D25 /* article9.swift */,
+				CF1A32942CA55C6E00816D25 /* article10.swift */,
+				CF1A32962CA55C7900816D25 /* article11.swift */,
+				CF1A32982CA55C8200816D25 /* article12.swift */,
+			);
+			path = article;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEE6A1F2C99663900A7BC3E /* Projet_VigiSpam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE6A442C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpam" */;
+			buildPhases = (
+				CFEE6A1C2C99663900A7BC3E /* Sources */,
+				CFEE6A1D2C99663900A7BC3E /* Frameworks */,
+				CFEE6A1E2C99663900A7BC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Projet_VigiSpam;
+			productName = Projet_VigiSpam;
+			productReference = CFEE6A202C99663900A7BC3E /* Projet_VigiSpam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEE6A2F2C99663A00A7BC3E /* Projet_VigiSpamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE6A472C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpamTests" */;
+			buildPhases = (
+				CFEE6A2C2C99663A00A7BC3E /* Sources */,
+				CFEE6A2D2C99663A00A7BC3E /* Frameworks */,
+				CFEE6A2E2C99663A00A7BC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEE6A322C99663A00A7BC3E /* PBXTargetDependency */,
+			);
+			name = Projet_VigiSpamTests;
+			productName = Projet_VigiSpamTests;
+			productReference = CFEE6A302C99663A00A7BC3E /* Projet_VigiSpamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEE6A392C99663A00A7BC3E /* Projet_VigiSpamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE6A4A2C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpamUITests" */;
+			buildPhases = (
+				CFEE6A362C99663A00A7BC3E /* Sources */,
+				CFEE6A372C99663A00A7BC3E /* Frameworks */,
+				CFEE6A382C99663A00A7BC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEE6A3C2C99663A00A7BC3E /* PBXTargetDependency */,
+			);
+			name = Projet_VigiSpamUITests;
+			productName = Projet_VigiSpamUITests;
+			productReference = CFEE6A3A2C99663A00A7BC3E /* Projet_VigiSpamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEE6A182C99663900A7BC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CFEE6A1F2C99663900A7BC3E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFEE6A2F2C99663A00A7BC3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFEE6A1F2C99663900A7BC3E;
+					};
+					CFEE6A392C99663A00A7BC3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFEE6A1F2C99663900A7BC3E;
+					};
+				};
+			};
+			buildConfigurationList = CFEE6A1B2C99663900A7BC3E /* Build configuration list for PBXProject "Projet_VigiSpam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEE6A172C99663900A7BC3E;
+			productRefGroup = CFEE6A212C99663900A7BC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEE6A1F2C99663900A7BC3E /* Projet_VigiSpam */,
+				CFEE6A2F2C99663A00A7BC3E /* Projet_VigiSpamTests */,
+				CFEE6A392C99663A00A7BC3E /* Projet_VigiSpamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEE6A1E2C99663900A7BC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE6A2B2C99663A00A7BC3E /* Preview Assets.xcassets in Resources */,
+				CFEE6A282C99663A00A7BC3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A2E2C99663A00A7BC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A382C99663A00A7BC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEE6A1C2C99663900A7BC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE6A4F2C99BD5E00A7BC3E /* model_rkd.swift in Sources */,
+				CFEE6A552C9AC4A600A7BC3E /* theme.swift in Sources */,
+				CF1A32912CA55C5700816D25 /* article8.swift in Sources */,
+				CFEE6ACB2CA4154600A7BC3E /* article5.swift in Sources */,
+				CFEE6A5F2C9C0FAF00A7BC3E /* Doc.swift in Sources */,
+				CFEE6ACF2CA42B5800A7BC3E /* rechercherExtract.swift in Sources */,
+				CF1A32932CA55C6300816D25 /* article9.swift in Sources */,
+				CFEE6AB22CA18C0200A7BC3E /* Question3.swift in Sources */,
+				CFEE6AB32CA18C0200A7BC3E /* Modeles.swift in Sources */,
+				CFEE6A242C99663900A7BC3E /* Projet_VigiSpam.swift in Sources */,
+				CFEE6ABE2CA2D31100A7BC3E /* NiveauIdentité.swift in Sources */,
+				CFEE6AC72CA414F300A7BC3E /* article3.swift in Sources */,
+				CFEE6A572C9AD0CB00A7BC3E /* dialogue_cb.swift in Sources */,
+				CFEE6A592C9AD18200A7BC3E /* chat_bot.swift in Sources */,
+				CFEE6A532C9AC46100A7BC3E /* boutton_back.swift in Sources */,
+				CFEE6A5B2C9AFB3A00A7BC3E /* ContentView.swift in Sources */,
+				CFEE6AD12CA42B9B00A7BC3E /* ExempleSearch.swift in Sources */,
+				CFEE6A512C9AC41800A7BC3E /* boutton_theme.swift in Sources */,
+				CF1A32952CA55C6E00816D25 /* article10.swift in Sources */,
+				CFEE6ABC2CA2C4CF00A7BC3E /* NiveauFinance.swift in Sources */,
+				CFEE6AC52CA4149700A7BC3E /* article2.swift in Sources */,
+				CFEE6AC02CA2D35500A7BC3E /* NiveauSecurite.swift in Sources */,
+				CFEE6AC92CA4151800A7BC3E /* article4.swift in Sources */,
+				CFEE6ACD2CA4156900A7BC3E /* article6.swift in Sources */,
+				CFEE6A5D2C9C0F0B00A7BC3E /* profil.swift in Sources */,
+				CF1A32992CA55C8200816D25 /* article12.swift in Sources */,
+				CF1A328F2CA55C4A00816D25 /* article7.swift in Sources */,
+				CFEE6AC32CA4145400A7BC3E /* article1.swift in Sources */,
+				CFEE6AB52CA18D6C00A7BC3E /* ButtonQuestion3.swift in Sources */,
+				CFEE6ABA2CA1AE2A00A7BC3E /* niveauCopie.swift in Sources */,
+				CFEE6AB02CA18C0200A7BC3E /* Database.swift in Sources */,
+				CFEE6AD32CA42BD200A7BC3E /* recherche.swift in Sources */,
+				CFEE6AA92CA164DE00A7BC3E /* parametre.swift in Sources */,
+				CF1A32972CA55C7900816D25 /* article11.swift in Sources */,
+				CFEE6AB92CA1AE2A00A7BC3E /* NiveauFishing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A2C2C99663A00A7BC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE6A352C99663A00A7BC3E /* Projet_VigiSpamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE6A362C99663A00A7BC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE6A412C99663A00A7BC3E /* Projet_VigiSpamUITestsLaunchTests.swift in Sources */,
+				CFEE6A3F2C99663A00A7BC3E /* Projet_VigiSpamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEE6A322C99663A00A7BC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEE6A1F2C99663900A7BC3E /* Projet_VigiSpam */;
+			targetProxy = CFEE6A312C99663A00A7BC3E /* PBXContainerItemProxy */;
+		};
+		CFEE6A3C2C99663A00A7BC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEE6A1F2C99663900A7BC3E /* Projet_VigiSpam */;
+			targetProxy = CFEE6A3B2C99663A00A7BC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFEE6A422C99663A00A7BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEE6A432C99663A00A7BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEE6A452C99663A00A7BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projet_VigiSpam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEE6A462C99663A00A7BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projet_VigiSpam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFEE6A482C99663A00A7BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projet_VigiSpam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Projet_VigiSpam";
+			};
+			name = Debug;
+		};
+		CFEE6A492C99663A00A7BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projet_VigiSpam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Projet_VigiSpam";
+			};
+			name = Release;
+		};
+		CFEE6A4B2C99663A00A7BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projet_VigiSpam;
+			};
+			name = Debug;
+		};
+		CFEE6A4C2C99663A00A7BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "le-groupe-3-je-crois.Projet-VigiSpamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projet_VigiSpam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEE6A1B2C99663900A7BC3E /* Build configuration list for PBXProject "Projet_VigiSpam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE6A422C99663A00A7BC3E /* Debug */,
+				CFEE6A432C99663A00A7BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE6A442C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE6A452C99663A00A7BC3E /* Debug */,
+				CFEE6A462C99663A00A7BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE6A472C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE6A482C99663A00A7BC3E /* Debug */,
+				CFEE6A492C99663A00A7BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE6A4A2C99663A00A7BC3E /* Build configuration list for PBXNativeTarget "Projet_VigiSpamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE6A4B2C99663A00A7BC3E /* Debug */,
+				CFEE6A4C2C99663A00A7BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEE6A182C99663900A7BC3E /* Project object */;
+}
